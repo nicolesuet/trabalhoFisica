@@ -18,3 +18,6 @@ body{
   text-align: center;
   color: white;
 }
+#contato p, #contato h2{
+color: white;
+}

@@ -21,3 +21,6 @@
 .esquerdo{
   -webkit-clip-path: polygon(0 0, 100% 100%, 100% 0);
 }
+#divB{
+	background-color: #0C3C60;
+}

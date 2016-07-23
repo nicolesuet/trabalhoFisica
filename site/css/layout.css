@@ -92,3 +92,21 @@ main img{
   position: absolute;
   z-index: -1;
 }
+#contato{
+	height:400;
+	
+}
+#divB{
+	float:left;
+	width: 980px;
+}
+#Mapa{
+	clear:both;
+	float: right;
+}
+#contato p, #contato h2{
+	padding-left:10px;
+}
+#CT{
+	padding-left:20px;
+}
