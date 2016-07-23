@@ -1,6 +1,7 @@
 .box{
   background-color: #0C3C60;
 }
+<<<<<<< HEAD
 .box h2{
   background-color: #031A2B;
 }
@@ -15,4 +16,10 @@
 }
 .esquerdo{
   -webkit-clip-path: polygon(0 0, 100% 100%, 100% 0);
+=======
+#background {
+  background-image: url(../img/congestionamento-monstro-blur.jpg);
+  content: "";
+  opacity: 0.5;
+>>>>>>> master
 }
