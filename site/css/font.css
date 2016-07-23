@@ -11,3 +11,10 @@ header h1{
   font-size: 20px;
   font-size: 1.5em;
 }
+body{
+  font-family: Verdana !important;
+}
+.box{
+  text-align: center;
+  color: white;
+}
