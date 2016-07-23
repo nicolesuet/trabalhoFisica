@@ -57,3 +57,17 @@ header h1{
 main img{
   border: 5px solid #0C3C60;
 }
+
+#background {
+  width: 1920px;
+  height: 980px;
+  postiion: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}

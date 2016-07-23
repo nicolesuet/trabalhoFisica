@@ -1,3 +1,8 @@
 .box{
   background-color: #0C3C60;
 }
+#background {
+  background-image: url(../img/congestionamento-monstro-blur.jpg);
+  content: "";
+  opacity: 0.5;
+}
