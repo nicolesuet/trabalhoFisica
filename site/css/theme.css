@@ -1,3 +1,18 @@
 .box{
   background-color: #0C3C60;
 }
+.box h2{
+  background-color: #031A2B;
+}
+.triangulo{
+  width: 10px;
+  height: 10px;
+  background-color: #031A2B;
+  display: table;
+}
+.direito{
+  -webkit-clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+.esquerdo{
+  -webkit-clip-path: polygon(0 0, 100% 100%, 100% 0);
+}

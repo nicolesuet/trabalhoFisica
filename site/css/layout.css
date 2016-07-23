@@ -57,3 +57,25 @@ header h1{
 main img{
   border: 5px solid #0C3C60;
 }
+.box h2{
+  width: 300px;
+  padding: 5px 0;
+  margin-left: -30px;
+  margin-bottom: 0;
+}
+.box p{
+  margin-top: 10px;
+}
+.triangulo-h2{
+  position: relative;
+}
+.esquerdo{
+  position: absolute;
+  bottom: -10px;
+  left: -29px;
+}
+.direito{
+  position: absolute;
+  bottom: -10px;
+  left: 260px;
+}
