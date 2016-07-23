@@ -22,8 +22,8 @@ nav{
   position: relative;
   top: 30px;
 }
- #container{
-  width: 980px;
+ .container{
+  width: 980px !important;
   margin: 0 auto;
 }
 .logo{
@@ -45,7 +45,7 @@ header h1{
   height: 330px;
   float: left;
   padding: 20px;
-  margin: 0 23px;
+  margin: 0 18px;
 }
 #boxes{
   display: table;
@@ -54,6 +54,14 @@ header h1{
 .box button{
   margin: 20px;
   padding:  5px 10px;
+  border: 0;
+  background-color: white;
+}
+a:hover{
+  text-decoration: none !important;
+}
+button a{
+  color: #0C3C60;
 }
 main img{
   border: 5px solid #0C3C60;
@@ -93,28 +101,38 @@ main img{
   position: absolute;
   z-index: -1;
 }
-<<<<<<< Updated upstream
-#contato{
-	height:400;
-	
-}
+/* BRENO
 #divB{
 	float:left;
 	width: 980px;
+}*/
+/*MUDANÇAS QUE EU FIZ*/
+#divB{
+  float: left;
+  width: 100%;
+}
+.formulario{
+  float: left;
 }
 #Mapa{
-	clear:both;
 	float: right;
 }
 #contato p, #contato h2{
 	padding-left:10px;
 }
+#divB{
+  padding: 100px 0;
+}
+#divB h1{
+  text-align: center;
+  padding-top: 30px;
+}
 #CT{
 	padding-left:20px;
 }
-=======
 #sobre{
   text-align: center;
+  padding: 100px 0;
 }
 .borda{
   display: table;
@@ -122,6 +140,10 @@ main img{
   width: 100px;
   height: 1px;
   margin-bottom: 20px;
+}
+.n1{
   border-bottom: 5px solid #0C3C60;
 }
->>>>>>> Stashed changes
+.n2{
+  border-bottom: 5px solid #031A2B;
+}
