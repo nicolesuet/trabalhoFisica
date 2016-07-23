@@ -1,0 +1,13 @@
+header h1, header li{
+  text-transform: uppercase;
+}
+header a{
+  font-size: 0.9em;
+}
+header a:hover{
+  color: black !important;
+}
+header h1{
+  font-size: 20px;
+  font-size: 1.5em;
+}
