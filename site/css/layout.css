@@ -54,3 +54,6 @@ header h1{
   margin: 20px;
   padding:  5px 10px;
 }
+main img{
+  border: 10px solid #0C3C60;
+}
