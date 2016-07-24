@@ -9,17 +9,26 @@
 .box h2{
   background-color: #031A2B;
 }
-.triangulo{
-  width: 10px;
-  height: 10px;
-  background-color: #031A2B;
-  display: table;
-}
 .direito{
-  -webkit-clip-path: polygon(100% 0, 0 0, 0 100%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 0;
+  border-color: #031b2b transparent transparent transparent;
+  line-height: 0px;
+  _border-color: #031b2b #000000 #000000 #000000;
+  _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
 }
 .esquerdo{
-  -webkit-clip-path: polygon(0 0, 100% 100%, 100% 0);
+  /*-webkit-clip-path: polygon(0 0, 100% 100%, 100% 0);*/
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 0;
+  border-color: transparent #031b2b transparent transparent;
+  line-height: 0px;
+  _border-color: #000000 #031b2b #000000 #000000;
+  _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
 }
 #divB{
 	background-color: #0C3C60;
