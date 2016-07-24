@@ -18,6 +18,9 @@ body{
   text-align: center;
   color: white;
 }
+.box-big {
+  color: white;
+}
 #contato p, #contato h1, #contato h2{
 color: white;
 }

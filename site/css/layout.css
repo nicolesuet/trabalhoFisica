@@ -71,12 +71,26 @@ header h1{
   padding: 20px;
   margin: 0 18px;
 }
+.box-big{
+  width: 439px;
+  height: 238px;
+  float: left;
+  padding: 20px;
+  margin: 0 18px;
+  margin-bottom: 36px;
+}
 #boxes{
   display: table;
   margin: 45px 0;
 }
 .box button{
   margin: 20px;
+  padding:  5px 10px;
+  border: 0;
+  background-color: white;
+}
+.box-big button{
+  margin: 20px 0;
   padding:  5px 10px;
   border: 0;
   background-color: white;
@@ -96,7 +110,14 @@ main img{
   margin-left: -30px;
   margin-bottom: 0;
 }
-.box p{
+.box-big h2 {
+  width: 180px;
+  padding: 5px 7px;
+  margin-left: -30px;
+  margin-bottom: 0;
+  margin-top: 0px;
+}
+.box p, .box-big p{
   margin-top: 10px;
 }
 .triangulo-h2{
@@ -114,7 +135,7 @@ main img{
 }
 #background {
   width: 1920px;
-  height: 980px;
+  height: 1073px;
   postiion: relative;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -156,7 +177,8 @@ main img{
 }
 #sobre{
   text-align: center;
-  padding: 100px 0;
+  padding: 200px 0 100px 0;
+  //padding-bottom: -50px;
 }
 .borda{
   display: table;
