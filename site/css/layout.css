@@ -17,8 +17,29 @@ header li{
   display: inline;
   padding: 10px;
 }
-header h1{
-  color: black!important;
+footer li{
+  display: inline;
+}
+footer{
+  padding: 10px 0;
+  clear: both;
+}
+.logorodape{
+  float: left;
+}
+footer nav{
+  float: right;
+  position: relative;
+  top: 20px;
+}
+.glyphicon-arrow-up{
+  width: 20px;
+  color: black !important;
+}
+footer img{
+  width: 40px !important;
+  position: relative;
+  top: 10px;
 }
 nav{
   float: right;

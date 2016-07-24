@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
+  <span id="topo"></span>
   <header>
     <div class="container">
       <section id="logoHeader">
@@ -78,24 +79,42 @@
         </section>
       </div> <!-- CONTAINER FECHA ANTES-->
       <section id= "contato">
-          <div id="divB">
-            <div class="container">
-              <h1>CONTATO</h1>
-              <span class="borda n2"></span>
-              <div class="formulario">
-                <p><strong>Email:</strong> contato2a2016@gmail.com</p>
-                <h2>Comentário</h2>
-                <div id="CT">
-                  <input type="text" name="Comentario" size="40" value="Escreva aqui seu comentário"/>
-                  <input type = 'submit'name = 'Enviar' value = 'Enviar'/><br>
-                </div>
-              </div>
-              <div id= "Mapa">
-                <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:300px;width:400px;'><div id='gmap_canvas' style='height:240px;width:400px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google map							</a></small></div><div><small><a href="http://proxysitereviews.com/">proxy sites</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(-22.24557053976923,-42.521739847082465),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-22.24557053976923,-42.521739847082465)});infowindow = new google.maps.InfoWindow({content:'<strong>CefetNF</strong><br>Av. Gov. Roberto Silveira, 1900 - Prado, Nova Friburgo - RJ, 28635-000, Brasil<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+        <div id="divB">
+          <div class="container">
+            <h1>CONTATO</h1>
+            <span class="borda n2"></span>
+            <div class="formulario">
+              <p><strong>Email:</strong> contato2a2016@gmail.com</p>
+              <h2>Comentário</h2>
+              <div id="CT">
+                <input type="text" name="Comentario" size="40" value="Escreva aqui seu comentário"/>
+                <input type = 'submit'name = 'Enviar' value = 'Enviar'/><br>
               </div>
             </div>
+            <div id= "Mapa">
+              <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:300px;width:400px;'><div id='gmap_canvas' style='height:240px;width:400px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google map							</a></small></div><div><small><a href="http://proxysitereviews.com/">proxy sites</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(-22.24557053976923,-42.521739847082465),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-22.24557053976923,-42.521739847082465)});infowindow = new google.maps.InfoWindow({content:'<strong>CefetNF</strong><br>Av. Gov. Roberto Silveira, 1900 - Prado, Nova Friburgo - RJ, 28635-000, Brasil<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+            </div>
           </div>
-        </section>
-      </main>
-    </body>
-    </html>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="logorodape">
+          <a href="index.html>"><img src="img/logo.jpg" alt="CEFET" class="logo" /></a>
+          <a href="index.html"><h4>LOCOMOÇÃO EM NOVA FRIBURGO</h4></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="estatistica.html">Estatística</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="index.html#sobre">Sobre</a></li>
+            <li><a href="index.html#contato">Contato</a></li>
+            <li><a href="#topo" id="voltar-topo"><span class="glyphicon glyphicon-arrow-up"></span>Voltar ao início</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+  </html>

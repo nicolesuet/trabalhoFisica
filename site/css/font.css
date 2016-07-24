@@ -21,6 +21,7 @@ body{
 #contato p, #contato h1, #contato h2{
 color: white;
 }
-button{
+button,
+header h1, footer h4, #voltar-topo{
   color: black!important;
 }
