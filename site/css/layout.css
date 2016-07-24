@@ -17,6 +17,9 @@ header li{
   display: inline;
   padding: 10px;
 }
+header h1{
+  color: black!important;
+}
 nav{
   float: right;
   position: relative;
