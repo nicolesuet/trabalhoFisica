@@ -73,11 +73,12 @@ header h1{
 }
 .box-big{
   width: 439px;
-  height: 238px;
+  height: 260px;
   float: left;
   padding: 20px;
   margin: 0 18px;
   margin-bottom: 36px;
+  position: relative;
 }
 #boxes{
   display: table;
@@ -90,10 +91,12 @@ header h1{
   background-color: white;
 }
 .box-big button{
-  margin: 20px 0;
+  margin: 10px 0;
   padding:  5px 10px;
   border: 0;
   background-color: white;
+  position: absolute;
+  bottom: 10px;
 }
 a:hover{
   text-decoration: none !important;
